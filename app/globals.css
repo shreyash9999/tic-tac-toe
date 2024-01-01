@@ -1,0 +1,111 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+
+ *{
+  margin:0;
+  padding: 0;
+ }
+ .body-pg{
+  /* text-align: center;
+  padding-top: 200px; */
+  background-color: #EEF5FF;
+
+ }
+ 
+ .board-row{
+  margin: 0%;
+  padding: 0%;
+ }
+
+ .square{
+  height: 6rem;
+  width: 6rem;
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+ }
+
+
+
+
+ .game-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.5rem;
+
+ }
+
+ .board-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+
+
+ }
+
+ .board-dis{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  font-size: 2rem;
+  color:#333 ;
+  padding-top: 50px;
+ } 
+
+ .desc{
+  padding-top: 10px;
+
+ }
+.info{
+  font-size: 1.5rem;
+}
+
+ /* Navbar styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.title {
+  font-size: 3rem;
+  list-style-type: none;
+  text-align: center; /* Center align the title */
+  flex-grow: 1; /* Allow title to grow to occupy available space */
+}
+
+.btn-container {
+  list-style-type: none;
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.btn-l {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
